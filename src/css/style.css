@@ -1,0 +1,58 @@
+.themefont{
+    color: rgb(25, 25, 99);
+}
+
+
+@media only screen and (max-width: 576px) {
+    .themefont{
+        
+        text-align: center;
+        
+    }
+
+    .font-xs{
+        font-size: 15px;
+        height: 30px;
+    }
+}
+  
+@media only screen and (min-width: 576px) {
+    .landPage{
+        padding: 200px 0;
+    }
+    .font-xs{
+        height: 60px;
+    }
+
+
+    .themefont{
+        letter-spacing: 3px;
+        font-weight: bold;
+    }
+    .vertical-nav {
+        position: fixed;
+        top: 56px;
+        left: 0;
+        width: 200px;
+        height: 100%;
+        background-color: #f8f8f8;
+        overflow-y: auto;
+        padding-top: 30px
+      }
+}
+
+.form{
+    position: relative;
+    margin-left: 100px;
+    background-color: rgb(240, 240, 240);
+}
+
+.addbookBody{
+    background-color: rgb(255 251 251);
+}
+
+  
+.custom-dialog{
+    top:20%;
+   
+}

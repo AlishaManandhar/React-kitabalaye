@@ -1,0 +1,13 @@
+.landingPage{
+    padding: 200px 200px 0 200px;
+    background: rgb(230, 227, 227);
+    height: 100vh;
+    background-image: linear-gradient(rgb(180, 177, 177),rgb(255, 255, 255));
+
+}
+
+.themefont{
+    color: rgb(8, 8, 110);
+    letter-spacing: 4px;
+    font-size: 50px;
+}
